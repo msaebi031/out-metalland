@@ -7,7 +7,6 @@ import Comment from "./Comments";
 import WeeklyPlan from "./WeeklyPlan";
 
 const TabsComponents = () => {
-
   const { t } = useTranslation("consultantchildren");
 
   // itemTab
@@ -25,27 +24,16 @@ const TabsComponents = () => {
   return (
     <Box className="tab-text">
       <TabContext value={value}>
-        <TabList
-          variant="fullWidth"
-          // scrollButtons="auto"
-          // aria-label="scrollable auto tabs example"
-          indicatorColor="none"
-          // textColor="secondary"
-          //   allowScrollButtonsMobile
-          onChange={handleChange}
-        >
+        <TabList variant="fullWidth" indicatorColor="none" onChange={handleChange}>
           {itemTab.map((item, index) => (
             <Tab
+              key={index}
               sx={{ borderRadius: item.radius }}
-              className={`${
-                item.value === value ? "tab-bgactive" : "tab-bg"
-              } tab`}
+              className={`${item.value === value ? "tab-bgactive" : "tab-bg"} tab`}
               label={
                 <Typography
                   key={index}
-                  color={
-                    item.value === value ? "light.light" : "primary-linear"
-                  }
+                  color={item.value === value ? "light.light" : "primary-linear"}
                   className="font-bold"
                   variant="body1"
                   component="p"
