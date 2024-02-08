@@ -1,0 +1,13 @@
+{
+  "locales": ["en", "fa"],
+  "defaultLocale": "en",
+  "pages": {
+    "*": ["global"],
+    "/": ["home"],
+    "/payment": ["peyment"],
+    "/psychology": ["psychology"],
+    "/psychology/seminars": ["seminars"],
+    "/psychology/adultspsychology/psychologists/depression": ["depression"],
+    "/psychology/adultspsychology/psychologists/depression/[name]": ["consultantchildren"]
+  }
+}

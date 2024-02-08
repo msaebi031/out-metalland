@@ -1,0 +1,39 @@
+.landing {
+  width: 100%;
+  height: 100vh;
+  background: url(/img/psychologyadults/Group-1247.png) center / cover no-repeat;
+  color: #fff;
+  &_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba($color: #000000, $alpha: 0.4);
+    font-family: Alice, Gilroy;
+  }
+}
+.services {
+  &_item {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  &_item_icon {
+    width: 80px;
+    text-align: center;
+    background-color: #02979d;
+    color: #fff;
+    padding: 60px 30px;
+    border-radius: 50px 30px 50px 30px;
+    margin: 20px;
+    &:hover {
+      background-color: #eda12f;
+      cursor: pointer;
+    }
+  }
+}

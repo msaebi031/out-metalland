@@ -1,0 +1,40 @@
+#seminarreg {
+  .regbar {
+    border: 0.2px solid $primary;
+  }
+  .seminar-img {
+    max-width: 100%;
+    height: auto;
+  }
+  .seminar_data {
+    font-family: "Gilroy-medium";
+    font-size: 20px;
+    line-height: 23.44px;
+  }
+  .body-med {
+    font-family: "Gilroy";
+    font-size: 20px;
+    line-height: 40px;
+  }
+  .seminar-tag {
+    font-family: "Gilroy";
+    font-size: 14px;
+    line-height: 40px;
+  }
+  .guest-img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+  }
+  .card-button {
+    width: 220px;
+    height: 60px;
+    border-radius: 35px;
+    font-size: 20px;
+    font-family: "Gilroy-Bold";
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    margin-inline-start: auto;
+  }
+}

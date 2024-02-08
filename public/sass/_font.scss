@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "Alice";
+  src: url("../font/Alice-Regular.ttf");
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("../font/Gilroy-Regular.ttf");
+}
+@font-face {
+  font-family: "Gilroy-Bold";
+  src: url("../font/Gilroy-Bold.ttf");
+}
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url("../font/Gilroy-Medium.ttf");
+}
+@font-face {
+  font-family: "Gilroy-SemiBold";
+  src: url("../font/Gilroy-SemiBold.ttf");
+}
+@font-face {
+  font-family: "Gilroy-Black";
+  src: url("../font/Gilroy-Black.ttf");
+}
+@font-face {
+  font-family: "IranSanseDN";
+  src: url("../font/iransansdn.ttf"), url("../font/iransansdn.ttf") format("ttf");
+}
+@font-face {
+  font-family: "MikhakMedium";
+  src: url("../font/Mikhak-Medium.ttf"), url("../font/Mikhak-Medium.ttf") format("ttf");
+}
+
+.font-bold {
+  font-family: "Gilroy-Bold" !important;
+}
+
+.font-medium {
+  font-family: "Gilroy-Medium" !important;
+}
+
+.font-semibold {
+  font-family: "Gilroy-semiBold" !important;
+}
+
+.font-Iransans {
+  font-family: "MikhakMedium" !important;
+}

@@ -1,0 +1,72 @@
+#consultants {
+  .title {
+    text-transform: uppercase;
+  }
+  .drbar {
+    border: 0.2px solid $primary;
+    box-sizing: border-box;
+  }
+  .filters {
+    border: 0.2px solid $primary;
+    padding: 12px 26px;
+    height: auto;
+    box-sizing: border-box;
+    background-color: $light;
+  }
+  .results {
+    height: auto;
+    box-sizing: border-box;
+  }
+  .spvariant {
+    font-family: "Gilroy-semiBold";
+    font-size: 20px;
+    line-height: 40px;
+  }
+  .t-rated {
+    font-size: 20px;
+    line-height: 40px;
+    font-family: "Gilroy-Regular", sans-serif;
+    border-radius: 10px;
+    color: $dark;
+  }
+
+  .flexContainer {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  .field {
+    border-radius: 10px;
+    border: 0.5px solid $primary;
+    height: 56px;
+    width: 429px;
+    background-color: $light;
+  }
+  .field::placeholder {
+    font-size: 20px;
+    line-height: 40px;
+    font-family: "Gilroy-Regular", sans-serif;
+  }
+  .find {
+    position: absolute;
+    left: 321px;
+    width: 109px;
+    height: 56px;
+    background-color: $primary;
+    color: $light;
+    border: 0.5px solid $primary;
+    border-radius: 10px;
+    font-family: "Gilroy-semiBold";
+    font-size: 20px;
+    line-height: 40px;
+  }
+
+  .star {
+    color: $secondary;
+    font-size: 18px;
+  }
+  .drimg {
+    max-height: 258px;
+    width: 100%;
+  }
+}

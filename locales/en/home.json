@@ -1,0 +1,55 @@
+{
+    "home": {
+        "Learnmore": "Learn more",
+        "header": {
+            "Mentalland": "MENTALLAND",
+            "title": " WHERE YOU CAN LEARN, IMPROVE,GET CALM & BE HAPPY",
+            "dic": "Lorem ipsum dolor sit amet consectetur. Amet velit convallis amet mi leo aliquet in vestibulum consectetur. Lectus magna eleifend",
+            "cardsItem": {
+                "Treated": "TREATED PATIENTS",
+                "GraduactedArt": "GRADUACTED ART STUDENTS",
+                "Performed": "PERFORMED SEMINARS",
+                "Opportunities": "JOB OPPORTUNITIES"
+            }
+        },
+        "services-pr": {
+            "title": "OUR PROFESSIONAL SERVICES",
+            "utils": {
+                "1": "1",
+                "2": "2",
+                "3": "3",
+                "itemCard": {
+                    "psychology": "Psychology",
+                    "business": "Business",
+                    "art": "Art"
+                },
+                "tabPanels": {
+                    "text1": "Lorem ipsum dolor sit amet consectetur. Pretium rutrum nisi mollis sit tortor proin proin sagittis. Id nec suspendisse lacus erat. Vivamus orci bibendum at purus elit. Vel vehicula donec amet a dolor sollicitudin ut. Lectus cursus ipsum mi feugiat nulla enim. Nisl phasellus viverra quisque egestas in nec luctus ornare amet. In pellentesque volutpat urna ultrices vitae. Sed magna vitae placerat eu leo potenti semper id. Sedeget adipiscing nisl in vestibulum. Volutpat.",
+                    "text2": "Lorem ipsum dolor sit amet consectetur.orci bibendum at purus elit. Vel vehicula donec amet a dolor sollicitudin ut. Lectus cursus ipsum mi feugiat nulla enim. Nisl phasellus viverra quisque egestas in nec luctus ornare amet. In pellentesque volutpat urna ultrices vitae. Sed magna vitae placerat eu leo potenti semper id. Sedeget adipiscing nisl in vestibulum. Volutpat.",
+                    "text3": "Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur.Lorem ipsum dolor sit amet consectetur.Lorem ipsum dolor sit amet consectetur.Lorem ipsum dolor sit amet consectetur. Pretium rutrum nisi mollis sit tortor proin proin sagittis. Id nec suspendisse lacus erat. Vivamus orci bibendum at purus elit. Lectus cursus ipsum mi feugiat nulla enim. Sedeget adipiscing nisl in vestibulum. Volutpat."
+                }
+            }
+        },
+        "whoWeAre": {
+            "title": "WHO WE ARE",
+            "dic": "Lorem ipsum dolor sit amet consectetur. Pretium rutrum nisi mollis sit tortor proin proin sagittis. Id nec suspendisse lacus erat. Vivamus orci bibendum at purus elit. Vel vehicula donec amet a dolor sollicitudin ut. Lectus cursus ipsum mi feugiat nulla enim. Nisl phasellus viverra quisque egestas in nec luctus ornare amet. In pellentesque volutpat urna ultrices vitae. Sed magna vitae placerat eu leo potenti semper id. Sed elementum eget adipiscing nisl in vestibulum. Volutpat.",
+            "items": {
+                "text1": "CREATED WITH LOVE",
+                "text2": "ART ACADEMY ADDED",
+                "text3": "BEING THE FIRST MENTAL WEBSITE INIRAN",
+                "text4": "REDESIGNED,IMPROVED AND EXPANDED"
+            }
+        },
+        "ourMission":{
+            "title":"OUR VISION & MISSION",
+            "dic":"Lorem ipsum dolor sit amet consectetur. Pretium rutrum nisi mollis sit tortor proin proin sagittis. Id nec suspendisse lacus erat. Vivamus orci bibendum at purus elit. Vel vehicula donec amet a dolor sollicitudin ut. Lectus cursus ipsum mi feugiat nulla enim. Nisl phasellus viverra quisque egestas in nec luctus ornare amet. In pellentesque volutpat urna ultrices vitae.",
+             "items":{
+                "vision":"VISION",
+                "mission":"MISSION",
+                "value":"VALUE",
+                "goal":"GOAL",
+                "dic":"Lorem ipsum dolor sit amet consectetur. Pretium rutrum nisi mollis sit tortor proin proin sagittis. Id nec suspendisse lacus erat. Vivamus orci bibendum at purus elit. Vel vehicula donec amet a dolor sollicitudin ut. Lectus cvolutpat urna ultrices vitae. "
+             }   
+        }
+    }
+}
