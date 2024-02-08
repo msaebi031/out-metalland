@@ -28,10 +28,9 @@ const WeeklyPlan = () => {
         {daysOfWeek.map((item, index) => {
           const find = itemTime.find((e) => e.day.toLowerCase() === item.toLowerCase());
           return (
-            <Grid item xs={12} sm={6}>
+            <Grid key={index} item xs={12} sm={6}>
               <Box
                 border={!find ? "0.2px solid rgba(237, 161, 47, 1)" : "0.2px solid rgba(2, 151, 157, 1)"}
-                key={index}
                 className="d-flex justify-beetwen align-center box-card-l"
               >
                 <Typography variant="body1" color="dark.main" component="p">
