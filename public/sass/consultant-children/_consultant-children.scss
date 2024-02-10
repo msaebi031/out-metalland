@@ -194,6 +194,62 @@
         padding: 20px;
         background-color: #fafefe;
       }
+
+      .arrow {
+        font-size: 30px;
+        color: #fff;
+        background-color: #02979d;
+        padding: 2px;
+        border-radius: 50%;
+        margin-inline-start: 13px;
+      }
+
+      .slide-title {
+        background-color: $primary;
+        border-radius: 5px;
+      }
+
+      .box-form {
+        display: grid;
+        justify-content: center;
+        label {
+          border: 0.5px solid $primary;
+          border-radius: 5px;
+          margin-top: 14px;
+          padding: 1px 60px 1px 57px;
+          margin-left: 0px !important;
+          margin-right: 0px !important;
+
+          span {
+            font-size: 17px !important;
+            // padding-right: 16px;
+          }
+        }
+      }
+
+      .celect-form {
+        em {
+          color: #818181;
+        }
+        border-radius: 10px !important;
+        background: var(--white, #fafefe) !important;
+        color: #818181 !important;
+        height: 47px !important;
+        display: flex;
+        align-items: center;
+        font-size: 16px !important;
+        border: 0.2px solid rgba(2, 151, 157, 1) svg {
+          font-size: 30px !important;
+        }
+      }
+
+      .arrow-input {
+        color: $primary;
+        padding-inline-end: 10px;
+      }
     }
+  }
+  .swiper-child {
+    padding: 10px 5px;
   }
 }

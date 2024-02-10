@@ -12,7 +12,7 @@ const Header = () => {
 
   const slid = (
     <Container maxWidth="lg">
-      <Grid mt={{ lg: 2, xl: 5 }} xs={10} sm={8} md={6} lg={5} container>
+      <Grid mt={35} xs={10} sm={8} md={6} lg={5} container>
         <Typography lineHeight={{ xs: "1.25", sm: "1.5" }} color="dark.main" component="h1" variant="h4" className="font-Alice">
           <Typography component="span">{t("home.header.Mentalland")}</Typography>
           {t("home.header.title")}
@@ -23,7 +23,7 @@ const Header = () => {
           component="p"
           variant="h6"
           className=""
-          my={{ xs: 0.8, sm: 1.5, md: 2.7 }}
+          my={{ xs: 2, sm: 1.5, md: 2.7 }}
         >
           {t("home.header.dic")}
         </Typography>

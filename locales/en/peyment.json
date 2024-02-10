@@ -5,7 +5,8 @@
     "order": "Order tracking number : ",
     "name": "Consultant Name : ",
     "consultation": "Subject of consultation : ",
-    "time": "Consultation date and time : ",
+    "time": "Duration of each session : ",
+    "times": "Meeting time or times : ",
     "videocall": "Link Video Call : ",
     "dic": "Also, the order information was sent to you via SMS and email"
   },

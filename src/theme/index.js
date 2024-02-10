@@ -61,6 +61,7 @@ const theme = (lang) => {
         main: "#8F4DAE",
       },
       dark: {
+        light: "#2D2D2D",
         main: "#000B0C",
       },
       light: {
@@ -70,19 +71,6 @@ const theme = (lang) => {
       white: {
         light: "#FAFEFE",
         main: "#fff",
-      },
-      darkTheme: {
-        one: "#FFFFFF",
-        two: "#EFEFEF",
-        three: "#DADADA",
-        four: "#818181",
-        five: "#6F767E",
-        six: "#404B53",
-        seven: "#232830", //"#26282C", //"#2B3034",
-        slightLighter: "#1A1C22",
-        main: "#050A0E",
-        eight: "#26282C",
-        contrastText: "#95959E",
       },
     },
   });

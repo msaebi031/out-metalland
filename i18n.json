@@ -5,6 +5,7 @@
     "*": ["global"],
     "/": ["home"],
     "/payment": ["peyment"],
+    "/videocall/[code]": ["videocall"],
     "/psychology": ["psychology"],
     "/psychology/seminars": ["seminars"],
     "/psychology/adultspsychology/psychologists/depression": ["depression"],

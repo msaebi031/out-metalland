@@ -17,7 +17,7 @@ const Swiper_Header = ({ clas_bg, slid }) => {
           clickable: true,
         }}
         autoplay={{
-          delay: 10000,
+          delay: 100000,
           disableOnInteraction: false,
         }}
         modules={[Pagination, Autoplay]}

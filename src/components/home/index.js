@@ -7,6 +7,7 @@ import Mental_land from "./Mental_land";
 import Comments from "./Comments";
 import Latest_Articles from "./Latest_Articles";
 import Layout from "@/src/container/layout";
+import Questions from "./Questions";
 
 const HomeComponent = () => {
   return (
@@ -22,6 +23,7 @@ const HomeComponent = () => {
         <Comments />
       </Container>
       <Latest_Articles />
+      <Questions />
     </Layout>
   );
 };

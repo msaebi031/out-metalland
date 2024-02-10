@@ -24,11 +24,39 @@
 }
 @font-face {
   font-family: "IranSanseDN";
-  src: url("../font/iransansdn.ttf"), url("../font/iransansdn.ttf") format("ttf");
+  src: url("../font/iransansdn.ttf"),
+    url("../font/iransansdn.ttf") format("ttf");
 }
 @font-face {
   font-family: "MikhakMedium";
-  src: url("../font/Mikhak-Medium.ttf"), url("../font/Mikhak-Medium.ttf") format("ttf");
+  src: url("../font/Mikhak-Medium.ttf"),
+    url("../font/Mikhak-Medium.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url("../font/Gilroy-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Gilroy-Light";
+  src: url("../font/Gilroy-Light.ttf");
+}
+
+.font-light {
+  font-family: "Gilroy-Light" !important;
+}
+
+.font-Gilroy {
+  font-family: "Gilroy" !important;
+}
+
+.font-black {
+  font-family: "Gilroy-Black" !important;
+}
+
+.font-Alice {
+  font-family: "Alice", sans-serif !important;
 }
 
 .font-bold {

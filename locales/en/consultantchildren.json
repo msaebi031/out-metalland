@@ -5,6 +5,7 @@
   "consultations": "Consultations",
   "selectInput": {
     "errorselect": "please select type and time first",
+    "errorweky": "First, use the weekly plan",
     "itemType": {
       "videoCall": "video call"
     },
@@ -18,5 +19,6 @@
     "weeklyPlan": "Weekly plan"
   },
   "week": ["Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-  "off": "off"
+  "time": ["15 minutes", "30 minutes", "45 minutes", "1 hour"],
+  "clock": "O'clock"
 }

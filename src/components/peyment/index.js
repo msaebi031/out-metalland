@@ -1,5 +1,5 @@
 import Layout from "@/src/container/layout";
-import { Alert, AlertTitle, Box, Button, CircularProgress, Container, Typography } from "@mui/material";
+import { Alert, AlertTitle, Box, Button, Container, Typography } from "@mui/material";
 import Link from "next/link";
 // translate
 import useTranslation from "next-translate/useTranslation";
@@ -66,6 +66,9 @@ const PeymentComponent = ({ Authority, Status }) => {
               </Typography>
               <Typography component="p">
                 {t("success.time")} {result.data.time}
+              </Typography>
+              <Typography component="p">
+                {t("success.times")} {result.data.times}
               </Typography>
               <Typography component="p">
                 {t("success.videocall")}{" "}

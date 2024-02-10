@@ -5,8 +5,11 @@ import { Box, Button, Container, Typography } from "@mui/material";
 import Loading from "../global/loading";
 import MettingView from "./view";
 import { useSelector } from "react-redux";
+// translate
+import useTranslation from "next-translate/useTranslation";
 
 const MeetingJoin = (props) => {
+  const { t } = useTranslation("videocall");
   const [joined, setJoined] = useState(null);
   const [loading, setLoading] = useState(false);
   // redux
@@ -41,15 +44,32 @@ const MeetingJoin = (props) => {
           <Container maxWidth="lg">
             <Box className="join text-center w-100">
               <Typography component="h1" variant="h5" pb={2}>
-                Id Room : {props.meetingId}
+                {t("id")}
+                <Typography component="span" variant="p" color="dark.light">
+                  {props.meetingId}
+                </Typography>
+              </Typography>
+              <Typography component="p" variant="h5" pb={2}>
+                {t("presenter")}
+                <Typography component="span" variant="p" color="dark.light">
+                  {data.name}
+                </Typography>
               </Typography>
 
-              <Typography component="p" variant="p" pb={2}>
-                Moshaver : {data.name}
+              <Typography component="p" variant="h5" pb={2}>
+                {t("time")}
+                <Typography component="span" variant="p" color="dark.light">
+                  {data.time}
+                </Typography>
               </Typography>
-              <Typography component="p" variant="p" pb={2}>
-                time : {data.time}
+
+              <Typography component="p" variant="h5" pb={2}>
+                {t("times")}
+                <Typography component="span" variant="p" color="dark.light">
+                  {data.times}
+                </Typography>
               </Typography>
+
               <Button variant="contained" onClick={joinMeeting}>
                 Join Room
               </Button>

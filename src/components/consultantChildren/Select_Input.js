@@ -30,10 +30,11 @@ const Select_Input = ({ hanldeOpenModal }) => {
   const theme = useTheme();
   const [type, setType] = useState([]);
   const [time, setTime] = useState([]);
-  const [itemTime, setItemTime] = useState([]);
+
+  const itemTime = t("time", {}, { returnObjects: true });
 
   // redux
-  const { data } = useSelector((state) => state.doctor);
+  const { times } = useSelector((state) => state.doctor);
   const dispatch = useDispatch();
 
   const handleChange = (event, type) => {
@@ -58,18 +59,10 @@ const Select_Input = ({ hanldeOpenModal }) => {
   // handle open peyment
   const openPeyment = () => {
     if (type.length < 1 || time.length < 1) return errorTost(t("selectInput.errorselect"));
+    console.log(times);
+    if (Object.keys(times).length === 0) return errorTost(t("selectInput.errorweky"));
     hanldeOpenModal();
   };
-
-  useEffect(() => {
-    const datas = [];
-    data?.time?.map((item) => {
-      item.time.map((clock) => {
-        datas.push(`${item.day} - ${clock}`);
-      });
-    });
-    setItemTime(datas);
-  }, []);
 
   return (
     <Box mt={{ sm: 3, md: "auto" }}>

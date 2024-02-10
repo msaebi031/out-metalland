@@ -10,11 +10,14 @@ const ModalBuy = ({ open, hanldeOpenModal }) => {
   const router = useRouter();
   const [loading, setLoading] = useState(false);
   // redux
-  const { data, category, time } = useSelector((state) => state.doctor);
+  const { data, category, time, times } = useSelector((state) => state.doctor);
 
   const OpenZarinpal = async () => {
     setLoading(true);
-    const newData = { ...data, email: "test@gmail.com", category: category[0], time: time[0] };
+    const modifiedString = Object.keys(times)
+      .map((key) => `${key},`)
+      .join(" ");
+    const newData = { ...data, email: "test@gmail.com", category: category[0], time: time[0], times: modifiedString };
 
     await axios
       .post("/api/peyment", {
