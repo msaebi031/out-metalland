@@ -16,7 +16,7 @@ const ConPicDetails = ({
   orderT = 1,
   orderI = 2,
   menu = [],
-  width = { xs: "300px", md: "100%" },
+  width = { xs: "350px", sm: "500px", md: "100%" },
 }) => {
   return (
     <Box pt={pt}>

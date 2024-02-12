@@ -1,12 +1,5 @@
 // mui
-import {
-  Box,
-  Typography,
-  Card,
-  CardContent,
-  Avatar,
-  Button,
-} from "@mui/material";
+import { Box, Typography, Card, CardContent, Avatar, Button } from "@mui/material";
 //icons
 import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from "react-icons/md";
 // local
@@ -34,33 +27,15 @@ const Card_Comments = ({ title, text, data }) => {
     <Box id="card-comments">
       {/* title & arrow */}
       <Box className="d-flex justify-beetwen align-center">
-        <Typography
-          component="h5"
-          variant="h5"
-          className="font-semibold"
-          sx={{ maxWidth: { sm: "430px", md: "initial" } }}
-        >
+        <Typography component="h5" variant="h5" className="font-semibold" sx={{ maxWidth: { sm: "430px", md: "initial" } }}>
           {title}
         </Typography>
         <Box>
-          <MdKeyboardArrowLeft
-            onClick={handlePrev}
-            className="arrow border-rounded pointer"
-          />
-          <MdKeyboardArrowRight
-            onClick={handleNext}
-            className="arrow border-rounded pointer"
-          />
+          <MdKeyboardArrowLeft onClick={handlePrev} className="arrow border-rounded pointer" />
+          <MdKeyboardArrowRight onClick={handleNext} className="arrow border-rounded pointer" />
         </Box>
       </Box>
-      <Typography
-        pb={6}
-        pt={3}
-        color="dark.main"
-        component="p"
-        variant="body1"
-        lineHeight={1.8}
-      >
+      <Typography pb={6} pt={3} color="dark.main" component="p" variant="body1" lineHeight={1.8}>
         {text}
       </Typography>
       {/* title & arrow */}
@@ -92,27 +67,14 @@ const Card_Comments = ({ title, text, data }) => {
                   {event.name}
                 </Typography>
                 <Box className="d-flex justify-beetwen" py={1.7}>
-                  <Typography
-                    color="primary.main"
-                    component="p"
-                    variant="body1"
-                  >
+                  <Typography color="primary.main" component="p" variant="body1">
                     {event.date}
                   </Typography>
-                  <Typography
-                    color="primary.main"
-                    component="p"
-                    variant="body1"
-                  >
+                  <Typography color="primary.main" component="p" variant="body1">
                     {event.job}
                   </Typography>
                 </Box>
-                <Typography
-                  color="dark.main"
-                  component="p"
-                  variant="body1"
-                  lineHeight={1.8}
-                >
+                <Typography color="dark.main" component="p" variant="body1" lineHeight={1.8}>
                   {event.dic}
                 </Typography>
               </CardContent>

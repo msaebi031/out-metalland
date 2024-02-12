@@ -24,7 +24,7 @@ const Swiper_Header = ({ clas_bg, slid }) => {
         className="mySwiper-header"
       >
         {clas_bg.map((items, index) => (
-          <SwiperSlide key={index} className={items.name}>
+          <SwiperSlide key={index} className={`${items.name} bg`}>
             {slid}
           </SwiperSlide>
         ))}

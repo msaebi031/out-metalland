@@ -1,22 +1,39 @@
 {
-    "psychologychildren": "psychology children",
-    "header": {
-     "landingTitle" : "LET'S ENJOY",
-     "landingP" : "Lorem ipsum dolor sit amet consectetur. Viverra pellentesque volutpat quis in erat. Sit aenean eget nascetur mus non. Enim a ut vitae felis convallis. Egestas enim diam ac nisi orci id tellus lobortis. Lacus in etiam rhoncus."
-    },
-    "services": {
-    "heading": "Children/Teenagers Psychology Services"
-    },
-    "articles": {
-        "desc1H": "Children/Teenagers Psychology",
-        "desc1": "Lorem ipsum dolor sit amet consectetur. Pretium rutrum nisi mollis sit tortor proin proin sagittis. Id nec suspendisse lacus erat. Vivamus orci bibendum at purus elit. Vel vehicula donec amet a dolor sollicitudin ut. Lectus cursus ipsum mi feugiat nulla enim. Nisl phasellus viverra quisque egestas in nec luctus ornare amet. In pellentesque volutpat urna ultrices vitae. Vel vehicula donec amet a dolor sollicitudin ut.",
-        "desc1listitem1":"Lorem ipsum dolor sit amet consectetur. Pretium rutrum nisi mollis sit tortor proin proin sagittis. ",
-        "desc1listitem2":"Lorem ipsum dolor sit amet consectetur.",
-    "desc1listitem3":"Lorem ipsum dolor sit amet consectetur.",
-    "desc1listitem4":"Lorem ipsum dolor sit amet consectetur.",
+  "psychologychildren": "psychology children",
+  "header": {
+    "landingTitle": "LET'S ENJOY",
+    "landingP": "Lorem ipsum dolor sit amet consectetur. Viverra pellentesque volutpat quis in erat. Sit aenean eget nascetur mus non. Enim a ut vitae felis convallis. Egestas enim diam ac nisi orci id tellus lobortis. Lacus in etiam rhoncus."
+  },
+  "services": {
+    "heading": "Children/Teenagers Psychology Services",
+    "items": {
+      "Depression": "Depression",
+      "Anxiety": "Anxiety",
+      "Peer_relationship_difficulties": "Peer relationship difficulties",
+      "Unhealthy_Eating": "Unhealthy Eating",
+      "Eating_Disorders": "Eating Disorders",
+      "Body_Image": "Body Image",
+      "Parent_child_relationship_issues": "Parent-child relationship issues",
+      "Disruptive_child": "Disruptive child behaviors, including ADHD"
+    }
+  },
+  "psychologists": {
+    "title": "Children/Teenagers PsychologY Consultants & Psychologists",
+    "text": "Lorem ipsum dolor sit amet consectetur. Pretium rutrum nisi mollis sit tortor proin proin sagittis. Id nec suspendisse lacus erat. Vivamus orci bibendum at purus elit. Vel vehicula donec amet a dolor sollicitudin ut.",
+    "btn": "See all"
+  },
+  "articles": {
+    "desc1H": "Children/Teenagers Psychology",
+    "desc1": "Lorem ipsum dolor sit amet consectetur. Pretium rutrum nisi mollis sit tortor proin proin sagittis. Id nec suspendisse lacus erat. Vivamus orci bibendum at purus elit. Vel vehicula donec amet a dolor sollicitudin ut. Lectus cursus ipsum mi feugiat nulla enim. Nisl phasellus viverra quisque egestas in nec luctus ornare amet. In pellentesque volutpat urna ultrices vitae. Vel vehicula donec amet a dolor sollicitudin ut.",
+    "items": [
+      "Lorem ipsum dolor sit amet consectetur. Pretium rutrum nisi mollis sit tortor proin proin sagittis. ",
+      "Lorem ipsum dolor sit amet consectetur.",
+      "Lorem ipsum dolor sit amet consectetur.",
+      "Lorem ipsum dolor sit amet consectetur."
+    ],
     "desc2H": "Children Psychology Article",
-    "desc2": "Lorem ipsum dolor sit amet consectetur. Id tincidunt amet ut eget in mauris amet fermentum. Nulla in id gravida erat. Volutpat magna viverra massa at diam fermentum. Venenatis tortor feugiat accumsan amet pretium ac ac eu dictum. Rhoncus quam nulla id cursus in sit neque. Risus id turpis in sollicitudin nisi. Ac convallis sit dictum ac tristique diam nulla. Ipsum tortor fermentum sociis non quam. Tristique quis molestie adipiscing lacus viverra etiam at aliquet. Volutpat ut nec sed et suspendisse nisi massa et. Vitae dui convallis euismod malesuada praesent molestie.",  
+    "desc2": "Lorem ipsum dolor sit amet consectetur. Id tincidunt amet ut eget in mauris amet fermentum. Nulla in id gravida erat. Volutpat magna viverra massa at diam fermentum. Venenatis tortor feugiat accumsan amet pretium ac ac eu dictum. Rhoncus quam nulla id cursus in sit neque. Risus id turpis in sollicitudin nisi. Ac convallis sit dictum ac tristique diam nulla. Ipsum tortor fermentum sociis non quam. Tristique quis molestie adipiscing lacus viverra etiam at aliquet. Volutpat ut nec sed et suspendisse nisi massa et. Vitae dui convallis euismod malesuada praesent molestie.",
     "desc3H": "Children Psychology Article",
     "desc3": "Lorem ipsum dolor sit amet consectetur. Id tincidunt amet ut eget in mauris amet fermentum. Nulla in id gravida erat. Volutpat magna viverra massa at diam fermentum. Venenatis tortor feugiat accumsan amet pretium ac ac eu dictum. Rhoncus quam nulla id cursus in sit neque. Risus id turpis in sollicitudin nisi. Ac convallis sit dictum ac tristique diam nulla. Ipsum tortor fermentum sociis non quam. Tristique quis molestie adipiscing lacus viverra etiam at aliquet. Volutpat ut nec sed et suspendisse nisi massa et. Vitae dui convallis euismod malesuada praesent molestie."
-}
   }
+}

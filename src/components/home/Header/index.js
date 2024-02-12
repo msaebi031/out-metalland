@@ -8,22 +8,30 @@ import Swiper_Header from "../../global/swipers/header";
 const Header = () => {
   const { t } = useTranslation("home");
 
-  const clas_bg = [{ name: "bg bgheader-1" }, { name: "bg bgheader-2" }, { name: "bg bgheader-3" }, { name: "bg bgheader-4" }];
+  const clas_bg = [{ name: "bgheader-1" }, { name: "bgheader-2" }, { name: "bgheader-3" }, { name: "bgheader-4" }];
 
   const slid = (
     <Container maxWidth="lg">
-      <Grid mt={35} xs={10} sm={8} md={6} lg={5} container>
-        <Typography lineHeight={{ xs: "1.25", sm: "1.5" }} color="dark.main" component="h1" variant="h4" className="font-Alice">
+      <Grid pt={{ xs: 29, sm: 30, md: 35 }} xs={12} sm={8} md={6} lg={5} container>
+        <Typography
+          fontSize={{ xs: "1.8rem", sm: "2.25rem" }}
+          lineHeight={{ xs: "1.25", sm: "1.5" }}
+          color="dark.main"
+          component="h1"
+          variant="h4"
+          className="font-Alice"
+        >
           <Typography component="span">{t("home.header.Mentalland")}</Typography>
           {t("home.header.title")}
         </Typography>
         <Typography
+          fontSize={{ xs: "1.10rem", sm: "1.25rem" }}
           lineHeight={{ xs: "1.4", sm: "1.6" }}
           color="dark.main"
           component="p"
           variant="h6"
           className=""
-          my={{ xs: 2, sm: 1.5, md: 2.7 }}
+          py={{ xs: 2, sm: 1.5, md: 2.7 }}
         >
           {t("home.header.dic")}
         </Typography>

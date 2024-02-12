@@ -35,8 +35,8 @@ const Navbar = ({ float }) => {
           {
             items: [
               { name: t("header.navbar.servise.items.psychology.Psychology"), href: "/psychology" },
-              { name: t("header.navbar.servise.items.psychology.PsychologyAdults"), href: "/psychologyAdults" },
-              { name: t("header.navbar.servise.items.psychology.PsychologyChildren"), href: "/psychologyChildren" },
+              { name: t("header.navbar.servise.items.psychology.PsychologyAdults"), href: "/psychology/psychologyadults" },
+              { name: t("header.navbar.servise.items.psychology.PsychologyChildren"), href: "/psychology/psychologychildren" },
               { name: t("header.navbar.servise.items.psychology.Seminars"), href: "/seminars" },
               { name: t("header.navbar.servise.items.psychology.PsychologistsAdults"), href: "/depressionadults" },
               { name: t("header.navbar.servise.items.psychology.PsychologistsChildren"), href: "/depressionchildren" },

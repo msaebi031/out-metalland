@@ -1,8 +1,6 @@
 import { Box } from "@mui/material";
 import Card_Comments from "../../global/swipers/card_comments";
 
-
-
 /**Data Comment */
 const Comments = () => {
   const data = [

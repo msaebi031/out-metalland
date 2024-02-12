@@ -7,8 +7,12 @@
     "/payment": ["peyment"],
     "/videocall/[code]": ["videocall"],
     "/psychology": ["psychology"],
+    "/psychology/psychologyadults": ["psychologyadults"],
+    "/psychology/psychologychildren": ["psychologychildren"],
     "/psychology/seminars": ["seminars"],
-    "/psychology/adultspsychology/psychologists/depression": ["depression"],
-    "/psychology/adultspsychology/psychologists/depression/[name]": ["consultantchildren"]
+    "/psychology/psychologyadults/depression": ["depression"],
+    "/psychology/psychologyadults/depression/[name]": ["consultantchildren"],
+    "/psychology/psychologychildren/depression": ["depression"],
+    "/psychology/psychologychildren/depression/[name]": ["consultantchildren"]
   }
 }

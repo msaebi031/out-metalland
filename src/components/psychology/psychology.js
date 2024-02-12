@@ -3,6 +3,7 @@ import { Box, Button, Typography } from "@mui/material";
 import Grid2 from "@mui/material/Unstable_Grid2";
 // local
 import useTranslation from "next-translate/useTranslation";
+import Link from "next/link";
 
 const Psychologys = () => {
   const { t } = useTranslation("psychology");
@@ -17,9 +18,11 @@ const Psychologys = () => {
           <Typography component="p" variant="p" color="dark.main" pb={4}>
             {t("psychology.aduls")}
           </Typography>
-          <Button variant="contained" size="large" className="border-rounded">
-            {t("psychology.button")}
-          </Button>
+          <Link href={"psychology/psychologyadults"} className="color-white">
+            <Button variant="contained" size="large" className="border-rounded">
+              {t("psychology.button")}
+            </Button>
+          </Link>
         </Grid2>
         <Grid2 xs={12} md={6} order={{ xs: 2, md: 1 }} className="text-center" pt={{ xs: 4, md: 0 }}>
           <Box component="img" src={`/img/psychology/psychology/adults.png`} width={{ xs: "400px", md: "100%" }} height={{ md: "500px" }} />
@@ -34,9 +37,11 @@ const Psychologys = () => {
           <Typography component="p" variant="p" color="dark.main" pb={6}>
             {t("psychology.children")}
           </Typography>
-          <Button variant="contained" size="large" className="border-rounded">
-            {t("psychology.button")}
-          </Button>
+          <Link href={"psychology/psychologychildren"} className="color-white">
+            <Button variant="contained" size="large" className="border-rounded">
+              {t("psychology.button")}
+            </Button>
+          </Link>
         </Grid2>
         <Grid2 xs={12} md={6} order={{ xs: 4, md: 4 }} className="text-center" pt={{ xs: 4, md: 0 }}>
           <Box

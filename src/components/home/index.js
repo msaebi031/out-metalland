@@ -1,13 +1,13 @@
 import { Container } from "@mui/material";
-import Header from "./Header";
-import Services_Pr from "./Services_Pr";
-import Who_We_Are from "./Who_We_Are";
-import Our_Mission from "./Our_Mission";
-import Mental_land from "./Mental_land";
-import Comments from "./Comments";
-import Latest_Articles from "./Latest_Articles";
+import Header from "./header";
+import Services_Pr from "./services_Pr";
+import Who_We_Are from "./who_We_Are";
+import Our_Mission from "./our_Mission";
+import Mental_land from "./mental_land";
+import Comments from "./comments";
+import Latest_Articles from "./latest_Articles";
 import Layout from "@/src/container/layout";
-import Questions from "./Questions";
+import Questions from "./questions";
 
 const HomeComponent = () => {
   return (

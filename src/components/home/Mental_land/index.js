@@ -7,31 +7,30 @@ const Mental_land = () => {
     <Box padding={{ xs: "11px 0px 48px", md: "29px 0px 42px" }} id="mental_land" mt={15}>
       <Container maxWidth="lg">
         <Grid mt={4} container spacing={{ xs: 0 }}>
-          <Grid item display={{ xs: "none", lg: "block" }} md={5}>
+          <Grid item display={{ xs: "none", md: "block" }} md={5}>
             <Box mt="13px" width={{ md: "75%" }} component="img" src="/img/home/mental_land/img-mobile.png" />
           </Grid>
           <Grid item xs={12} lg={7}>
-            <Typography className="font-Alice" component="h5" variant="h5">
+            <Typography component="h5" variant="title">
               MENTALLAND ON YOUR PHONE
             </Typography>
-            <Typography
-              display="grid"
-              mt={1.8}
-              width={{ lg: "548px" }}
-              lineHeight="1.86"
-              variant="body1"
-              fontSize="16.4px"
-              component="h6"
-              color="dark.main"
-            >
+            <Typography mt={1.8} variant="p" component="p" color="dark.main">
               Lorem ipsum dolor sit amet consectetur. Pretium rutrum nisi mollis sit tortor proin proin sagittis. Id nec suspendisse lacus
               erat. Vivamus orci bibendum at purus elit. Vel vehicula donec amet a dolor sollicitudin ut. Lectus cursus ipsum mi feugiat
               nulla enim. Nisl phasellus viverra quisque egestas in nec luctus ornare amet.
-              <span>. Lorem ipsum dolor sit amet consectetur. Pretium rutrum</span>
-              <span>. Lorem ipsum dolor sit amet consectetur. Pretium rutrum nisi</span>
-              <span>. Lorem ipsum dolor sit amet consectetur</span>
-              <span>. Lorem ipsum dolor sit amet consectetur. Pretium rutrum nisi</span>
             </Typography>
+            <Box component="ul" px={2} className="list-style-disc">
+              <Typography component="li" pb={2}>
+                Lorem ipsum dolor sit amet consectetur. Pretium rutrum
+              </Typography>
+              <Typography component="li" pb={2}>
+                Lorem ipsum dolor sit amet consectetur. Pretium rutrum
+              </Typography>
+              <Typography component="li" pb={2}>
+                Lorem ipsum dolor sit amet consectetur. Pretium rutrum
+              </Typography>
+              <Typography component="li">Lorem ipsum dolor sit amet consectetur. Pretium rutrum</Typography>
+            </Box>
             <Box mt={4.2}>
               <Link href="#about-me">
                 <Button color="primary" className="font-bold btn-home" sx={{ color: "grey.light" }} variant="contained">

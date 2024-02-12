@@ -7,6 +7,18 @@
     background-position: bottom !important;
   }
 
+  @media screen and (max-width: 480px) {
+    .bg {
+      height: 130vh;
+    }
+
+    h1 {
+      span {
+        font-size: 2rem !important;
+      }
+    }
+  }
+
   .bgheader-1 {
     background: url("../../public/img/home/bg-header.png");
   }
@@ -27,7 +39,7 @@
     span {
       display: block !important;
       color: #02979d;
-      font-size: 2.8rem !important;
+      font-size: 2.8rem;
     }
   }
 

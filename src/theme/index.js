@@ -24,7 +24,7 @@ const theme = (lang) => {
       },
       title: {
         fontFamily: "Alice",
-        fontSize: "35px",
+        fontSize: "30px",
         fontWeight: 400,
         lineHeight: "45.72px",
       },

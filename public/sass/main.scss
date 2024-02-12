@@ -1,8 +1,8 @@
 // base
-@import "base";
 @import "font";
 @import "variyant";
 @import "base";
+
 // layout
 @import "layout/header";
 @import "layout/footer";
@@ -12,6 +12,7 @@
 @import "global/swiper/swiper-header";
 @import "global/swiper/card-comments";
 @import "global/swiper/card";
+@import "global/swiper/img-text";
 // home
 @import "home/header";
 @import "home/services-pr";
@@ -20,8 +21,9 @@
 @import "home/latest-articles";
 // psychology
 @import "psychology";
-@import "psychologyadults";
-@import "psychildren";
+@import "psychology-children/header";
+@import "psychology-children/psychology";
+@import "psychology-adult/psychologyadults";
 // seminar id
 @import "seminarId/seminarreg";
 @import "consultants";
