@@ -1,0 +1,59 @@
+{
+  "header": {
+    "login": "Login",
+    "cart": "Cart",
+    "search": "Search ...",
+    "navbar": {
+      "home": "Home",
+      "servise": {
+        "title": "Our Services",
+        "items": {
+          "psychology": {
+            "Psychology": "Psychology",
+            "PsychologyAdults": "Psychology-Adults",
+            "PsychologyChildren": "Psychology-Children",
+            "Seminars": "Seminars",
+            "PsychologistsAdults": "List of Psychologists-Adults",
+            "PsychologistsChildren": "List of Psychologists-Children"
+          },
+          "art": {
+            "Art": "Art",
+            "ArtAdults": "Art-Adults",
+            "MusicAdults": "Music-Adults",
+            "CoachesAdults": "Coaches-Adults",
+            "ArtChildren": "Art-Children",
+            "MusicChildren": "Music-Children",
+            "CoachesChildren": "Coaches-Children"
+          },
+          "business": {
+            "Business": "Business",
+            "BusinessForAdults": "Business for Adults",
+            "BusinessForChildren": "Business for Children",
+            "JobOpportunities": "Job Opportunities"
+          },
+          "Tourism": "Tourism"
+        }
+      },
+      "about": {
+        "title": "About",
+        "items": {
+          "about": "About Us",
+          "positions": "Positions",
+          "join": "Join Us"
+        }
+      },
+      "contact": "Contact Us"
+    }
+  },
+  "footer": {
+    "dic": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "write": "WRITE US",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send_message": "Send Message",
+    "quick_access": "Quick Access",
+    "helpful_links": "Helpful Links",
+    "copyright": "copyright © 2023 mentalland team. All rights reserved."
+  }
+}

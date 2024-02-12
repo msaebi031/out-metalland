@@ -1,0 +1,24 @@
+{
+  "depression": "Depression",
+  "anxiety": "Anxiety",
+  "adjustmentIssues": "Adjustment issues",
+  "consultations": "Consultations",
+  "selectInput": {
+    "errorselect": "please select type and time first",
+    "errorweky": "First, use the weekly plan",
+    "itemType": {
+      "videoCall": "video call"
+    },
+    "placeholder1": "Select the Consultation type",
+    "placeholder2": "Select the time period",
+    "startCounseling": " Start Counseling"
+  },
+  "tabs": {
+    "aboutme": "About me",
+    "comments": "Comments",
+    "weeklyPlan": "Weekly plan"
+  },
+  "week": ["Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+  "time": ["15 minutes", "30 minutes", "45 minutes", "1 hour"],
+  "clock": "O'clock"
+}

@@ -1,0 +1,109 @@
+{
+  "home": {
+    "Learnmore": "Learn more",
+    "header": {
+      "Mentalland": "MENTALLAND",
+      "title": " WHERE YOU CAN LEARN, IMPROVE,GET CALM & BE HAPPY",
+      "dic": "Lorem ipsum dolor sit amet consectetur. Amet velit convallis amet mi leo aliquet in vestibulum consectetur.",
+      "cardsItem": {
+        "Treated": "TREATED PATIENTS",
+        "GraduactedArt": "GRADUACTED ART STUDENTS",
+        "Performed": "PERFORMED SEMINARS",
+        "Opportunities": "JOB OPPORTUNITIES"
+      }
+    },
+    "services-pr": {
+      "title": "OUR PROFESSIONAL SERVICES",
+      "utils": {
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "itemCard": {
+          "psychology": "Psychology",
+          "business": "Business",
+          "art": "Art"
+        },
+        "tabPanels": {
+          "text1": "Lorem ipsum dolor sit amet consectetur. Pretium rutrum nisi mollis sit tortor proin proin sagittis. Id nec suspendisse lacus erat. Vivamus orci bibendum at purus elit. Vel vehicula donec amet a dolor sollicitudin ut. Lectus cursus ipsum mi feugiat nulla enim. Nisl phasellus viverra quisque egestas in nec luctus ornare amet. In pellentesque volutpat urna ultrices vitae. Sed magna vitae placerat eu leo potenti semper id. Sedeget adipiscing nisl in vestibulum. Volutpat.",
+          "text2": "Lorem ipsum dolor sit amet consectetur.orci bibendum at purus elit. Vel vehicula donec amet a dolor sollicitudin ut. Lectus cursus ipsum mi feugiat nulla enim. Nisl phasellus viverra quisque egestas in nec luctus ornare amet. In pellentesque volutpat urna ultrices vitae. Sed magna vitae placerat eu leo potenti semper id. Sedeget adipiscing nisl in vestibulum. Volutpat.",
+          "text3": "Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur.Lorem ipsum dolor sit amet consectetur.Lorem ipsum dolor sit amet consectetur.Lorem ipsum dolor sit amet consectetur. Pretium rutrum nisi mollis sit tortor proin proin sagittis. Id nec suspendisse lacus erat. Vivamus orci bibendum at purus elit. Lectus cursus ipsum mi feugiat nulla enim. Sedeget adipiscing nisl in vestibulum. Volutpat."
+        }
+      }
+    },
+    "whoWeAre": {
+      "title": "WHO WE ARE",
+      "dic": "Lorem ipsum dolor sit amet consectetur. Pretium rutrum nisi mollis sit tortor proin proin sagittis. Id nec suspendisse lacus erat. Vivamus orci bibendum at purus elit. Vel vehicula donec amet a dolor sollicitudin ut. Lectus cursus ipsum mi feugiat nulla enim. Nisl phasellus viverra quisque egestas in nec luctus ornare amet. In pellentesque volutpat urna ultrices vitae. Sed magna vitae placerat eu leo potenti semper id. Sed elementum eget adipiscing nisl in vestibulum. Volutpat.",
+      "items": {
+        "text1": "CREATED WITH LOVE",
+        "text2": "ART ACADEMY ADDED",
+        "text3": "BEING THE FIRST MENTAL WEBSITE INIRAN",
+        "text4": "REDESIGNED,IMPROVED AND EXPANDED"
+      }
+    },
+    "ourMission": {
+      "title": "OUR VISION & MISSION",
+      "dic": "Lorem ipsum dolor sit amet consectetur. Pretium rutrum nisi mollis sit tortor proin proin sagittis. Id nec suspendisse lacus erat. Vivamus orci bibendum at purus elit. Vel vehicula donec amet a dolor sollicitudin ut. Lectus cursus ipsum mi feugiat nulla enim. Nisl phasellus viverra quisque egestas in nec luctus ornare amet. In pellentesque volutpat urna ultrices vitae.",
+      "items": {
+        "vision": "VISION",
+        "mission": "MISSION",
+        "value": "VALUE",
+        "goal": "GOAL",
+        "dic": "Lorem ipsum dolor sit amet consectetur. Pretium rutrum nisi mollis sit tortor proin proin sagittis. Id nec suspendisse lacus erat. Vivamus orci bibendum at purus elit. Vel vehicula donec amet a dolor sollicitudin ut. Lectus cvolutpat urna ultrices vitae. "
+      }
+    },
+    "mentalLand": {
+      "title": "MENTALLAND ON YOUR PHONE",
+      "dic": "Lorem ipsum dolor sit amet consectetur. Pretium rutrum nisi mollis sit tortor proin proin sagittis. Id nec suspendisse lacus ,erat. Vivamus orci bibendum at purus elit. Vel vehicula donec amet a dolor sollicitudin ut. Lectus cursus ipsum mi feugiat nulla enim. Nisl phasellus viverra quisque egestas in nec luctus ornare amet.",
+      "span1": "Lorem ipsum dolor sit amet consectetur. Pretium rutrum",
+      "span2": "Lorem ipsum dolor sit amet consectetur. Pretium rutrum nisi",
+      "span3": "Lorem ipsum dolor sit amet consectetur",
+      "span4": "Lorem ipsum dolor sit amet consectetur. Pretium rutrum nisi"
+    },
+    "comments": {
+      "title": "WHAT OUR PATIENTS SAY",
+      "text": "Lorem ipsum dolor sit amet consectetur. Ut turpis nunc ac felis sapien diam. Sed velit dignissim viverra natoque. Ut mattis egestas ",
+      "items": {
+        "name1": "Benjamin Smith",
+        "date1": "October 9",
+        "job1": "Psychology",
+        "dic1": "Lorem ipsum dolor sit amet consectetur. Scelerisque risus nulla viverra orci tristique magna et. Sagittis enim ut gravida sed volutpat est arcu vitae ....",
+        "name2": "Sarah Green",
+        "date2": "October 9",
+        "job2": "Art",
+        "dic2": "Lorem ipsum dolor sit amet consectetur. Neque nam sed a sit cras laoreet sed. Non felis lacus.",
+        "name3": "Benjamin Smith",
+        "date3": "October 9",
+        "job3": "Business",
+        "dic3": "Lorem ipsum dolor sit amet consectetur. Felis in pretium ornare nunc facilisi tellus ornare massa. Posuere mauris cum pellentesque.",
+        "name4": "Benjamin Smith",
+        "date4": "October 9",
+        "job4": "Psychology",
+        "dic4": "Lorem ipsum dolor sit amet consectetur. Scelerisque risus nulla viverra orci tristique magna et. Sagittis enim ut gravida sed volutpat est arcu vitae ...."
+      }
+    },
+    "latestArticles": {
+      "title": "LATEST ARTICLES",
+      "read": "Read",
+      "seeAll": "See all",
+      "items": {
+        "title": "Lorem ipsum dolor sit amet consectetur. Magna.",
+        "text": "Lorem ipsum dolor sit amet consectetur. Etiam aliquet tristique turpis ultrices ac augue eu adipiscing turpis. Ultricies rhoncus semper in id nec faucibus non vulputate vestibulum. Pharetra a elementum in."
+      }
+    },
+    "questions": {
+      "title": "Most Frequently Asked Questions",
+      "items": {
+        "title1": "Lorem ipsum dolor sit amet consectetur. Est ut vulputate scelerisque nibh?",
+        "content1": "Lorem ipsum dolor sit amet consectetur. Urna non sit non quisque. Mauris purus neque accumsan purus elementum. Proin faucibus in suspendisse malesuada. Egestas nisl arcu sit non mi a. Tortor sed.",
+        "title2": "Lorem ipsum dolor sit amet consectetur. Donec at ut diam sit vitae gravida nisi viverra augue?",
+        "content2": "Lorem ipsum dolor sit amet consectetur. Urna non sit non quisque. Mauris purus neque accumsan purus elementum. Proin faucibus in suspendisse malesuada. Egestas nisl arcu sit non mi a. Tortor sed.",
+        "title3": "Lorem ipsum dolor sit amet consectetur. Nibh nisi nec velit arcu tristique. Justo nulla enim nisi posuere?",
+        "content3": "Lorem ipsum dolor sit amet consectetur. Urna non sit non quisque. Mauris purus neque accumsan purus elementum. Proin faucibus in suspendisse malesuada. Egestas nisl arcu sit non mi a. Tortor sed.",
+        "title4": "Lorem ipsum dolor sit amet consectetur. Ut neque pellentesque felis orci. Hendrerit nulla egestas?",
+        "content4": "Lorem ipsum dolor sit amet consectetur. Urna non sit non quisque. Mauris purus neque accumsan purus elementum. Proin faucibus in suspendisse malesuada. Egestas nisl arcu sit non mi a. Tortor sed.",
+        "title5": "Lorem ipsum dolor sit amet consectetur. Amet mi viverra praesent imperdiet proin nec odio. Platea?",
+        "content5": "Lorem ipsum dolor sit amet consectetur. Urna non sit non quisque. Mauris purus neque accumsan purus elementum. Proin faucibus in suspendisse malesuada. Egestas nisl arcu sit non mi a. Tortor sed."
+      }
+    }
+  }
+}

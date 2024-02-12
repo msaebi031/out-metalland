@@ -1,0 +1,36 @@
+// base
+@import "font";
+@import "variyant";
+@import "base";
+
+// layout
+@import "layout/header";
+@import "layout/footer";
+// global
+@import "global/loading/loading";
+@import "global/breadcrumb/bc";
+@import "global/swiper/swiper-header";
+@import "global/swiper/card-comments";
+@import "global/swiper/card";
+@import "global/swiper/img-text";
+// home
+@import "home/header";
+@import "home/services-pr";
+@import "home/our-mission";
+@import "home/mental-land";
+@import "home/latest-articles";
+// psychology
+@import "psychology";
+@import "psychology-children/header";
+@import "psychology-children/psychology";
+@import "psychology-adult/psychologyadults";
+// seminar id
+@import "seminarId/seminarreg";
+@import "consultants";
+// depression
+@import "depression/filter";
+@import "depression/content";
+// consultant-children
+@import "consultant-children/consultant-children";
+// video cal
+@import "videocall/join";

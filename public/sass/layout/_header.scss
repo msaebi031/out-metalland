@@ -1,0 +1,137 @@
+// header
+.float-header {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+.float-color {
+  background-color: $primarylight;
+}
+
+// top bar
+.witdh-flag {
+  width: 24px;
+}
+
+.shocail {
+  width: 45px;
+  height: 45px;
+  border-radius: 10px;
+  svg {
+    width: 20px;
+    height: 20px;
+    color: #fff;
+  }
+}
+
+.search {
+  .MuiOutlinedInput-root {
+    border-radius: 25px !important;
+    background-color: #fff !important;
+    width: 315px !important;
+  }
+  svg {
+    width: 20px;
+    height: 20px;
+  }
+  input {
+    font-family: Gilroy-Bold;
+    &:dir(rtl) {
+      font-family: "MikhakMedium";
+    }
+  }
+}
+
+// navbar
+.navbar {
+  a,
+  p {
+    line-height: 40px !important;
+    font-size: 18px !important;
+    color: #000;
+  }
+  .active {
+    font-weight: bold;
+    color: $primary !important;
+    p,
+    svg {
+      font-weight: bold;
+      color: $primary !important;
+    }
+  }
+  .active-hover {
+    &:hover {
+      .hover {
+        display: block !important;
+      }
+    }
+  }
+
+  .hover {
+    position: absolute;
+    top: 1rem;
+    left: 2rem;
+    background-color: #fff;
+    padding: 0;
+    width: 230px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+    z-index: 50;
+    display: none;
+    li {
+      color: $dark !important;
+      padding: 8px;
+      &:hover {
+        background-color: $primary;
+        a {
+          color: #fff !important;
+        }
+      }
+    }
+  }
+
+  div {
+    &:nth-child(3) {
+      .hover {
+        width: 140px;
+      }
+    }
+  }
+  .list-loop {
+    padding: 0;
+    li {
+      &:not(:first-child) {
+        padding-inline-start: 25px !important;
+      }
+    }
+  }
+}
+
+.borderMenu {
+  border: 1px solid #000 !important;
+  border-radius: 10px !important;
+  padding: 5px !important;
+  svg {
+    font-size: 20px;
+  }
+}
+
+.drawer {
+  text-align: center;
+  .title {
+    color: $primary;
+  }
+  svg {
+    color: $primary;
+    font-size: 18px;
+  }
+  .lists {
+    li {
+      padding: 8px 0 !important;
+    }
+    a {
+      color: $dark !important;
+    }
+  }
+}

@@ -1,0 +1,30 @@
+#swiper-card {
+  .arrow {
+    font-size: 30px;
+    color: #fff;
+    background-color: $primary;
+    padding: 5px;
+    margin-inline-start: 15px;
+  }
+  .content {
+    padding-bottom: 10px !important;
+  }
+  .img {
+    height: 200px;
+  }
+  span {
+    font-size: 12px;
+  }
+  .title {
+    font-size: 15px !important;
+  }
+  .arrow_long {
+    background-color: $primary;
+    color: #fff;
+    padding: 10px 25px;
+    font-size: 20px;
+  }
+  button {
+    padding: 8px 50px;
+  }
+}

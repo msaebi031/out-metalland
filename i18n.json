@@ -1,0 +1,18 @@
+{
+  "locales": ["en", "fa"],
+  "defaultLocale": "en",
+  "pages": {
+    "*": ["global"],
+    "/": ["home"],
+    "/payment": ["peyment"],
+    "/videocall/[code]": ["videocall"],
+    "/psychology": ["psychology"],
+    "/psychology/psychologyadults": ["psychologyadults"],
+    "/psychology/psychologychildren": ["psychologychildren"],
+    "/psychology/seminars": ["seminars"],
+    "/psychology/psychologyadults/depression": ["depression"],
+    "/psychology/psychologyadults/depression/[name]": ["consultantchildren"],
+    "/psychology/psychologychildren/depression": ["depression"],
+    "/psychology/psychologychildren/depression/[name]": ["consultantchildren"]
+  }
+}

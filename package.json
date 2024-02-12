@@ -1,0 +1,40 @@
+{
+  "name": "mentals",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.15.4",
+    "@mui/lab": "^5.0.0-alpha.162",
+    "@mui/material": "^5.15.4",
+    "@videosdk.live/react-sdk": "^0.1.83",
+    "axios": "^1.6.7",
+    "classnames": "^2.5.1",
+    "moment": "^2.30.1",
+    "next": "14.0.4",
+    "next-redux-wrapper": "^8.1.0",
+    "next-translate-plugin": "^2.6.2",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-icons": "^5.0.1",
+    "react-infinite-scroller": "^1.2.6",
+    "react-player": "^2.14.1",
+    "react-redux": "^8.1.2",
+    "react-toastify": "^9.1.3",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^2.4.2",
+    "stylis-plugin-rtl": "^2.1.1",
+    "swiper": "^11.0.5"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.0.4"
+  }
+}

@@ -1,0 +1,14 @@
+#depression {
+  .filters {
+    border: 0.2px solid $primary;
+    padding: 12px 26px;
+    height: auto;
+    box-sizing: border-box;
+    background-color: $light;
+    box-shadow: 0px 1px 25px 0px $primaryshadow;
+    background-color: $primarybackgrond;
+    .title {
+      font-size: 20px;
+    }
+  }
+}
