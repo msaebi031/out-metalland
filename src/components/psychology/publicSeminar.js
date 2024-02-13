@@ -39,7 +39,7 @@ const PublicSeminar = () => {
   return (
     <Box mt={8} pt={5} className="public-seminar ">
       <Container maxWidth="lg">
-        <SwiperCard title={t("public_seminar.title")} button={t("public_seminar.button")} data={data} />
+        <SwiperCard title={t("public_seminar.title")} button={t("public_seminar.button")} href="/psychology/seminars" data={data} />
       </Container>
     </Box>
   );

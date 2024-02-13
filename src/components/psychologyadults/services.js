@@ -16,22 +16,26 @@ const Services = () => {
       name: t("services.items.depression"),
       icon: <BsCloudDrizzle />,
       width: "144px",
+      category: "Depression",
     },
-    { name: t("services.items.anxiety"), icon: <LuBrain />, width: "144px" },
+    { name: t("services.items.anxiety"), icon: <LuBrain />, width: "144px", category: "Anxiety" },
     {
       name: t("services.items.unhealthy"),
       icon: <MdOutlineNoFood />,
       width: "144px",
+      category: "Unhealthy+eating",
     },
     {
       name: t("services.items.lifetransitions"),
       icon: <GiRelationshipBounds />,
       width: "205px",
+      category: "Life+transitions%2CRelationship+difficulties",
     },
     {
       name: t("services.items.adjustment"),
       icon: <TiHeadphones />,
       width: "144px",
+      category: "Adjustmenu+Issuces",
     },
   ];
 
@@ -41,10 +45,11 @@ const Services = () => {
         {t("services.title")}
       </Typography>
 
-      <Grid spacing={3} className="text-center" container columns={20}>
+      {/* list of services and their icons */}
+      <Grid spacing={3} className="text-center justify-center" container>
         {items.map((item, index) => (
-          <Grid key={index} item sm={6} lg={4}>
-            <Link href={`/psychology/psychologychildren/psychologists/?specialty`} className="box-icon">
+          <Grid key={index} item xs={6} lg={4}>
+            <Link href={`/psychology/psychologyadults/depression?category=${item.category}`} className="box-icon">
               <Box>{item.icon}</Box>
               <Typography width={{ xs: "auto", sm: item.width }} component="h5" variant="h5" className="font-Alice">
                 {item.name}
@@ -53,6 +58,7 @@ const Services = () => {
           </Grid>
         ))}
       </Grid>
+      {/* list of services and their icons */}
     </Box>
   );
 };

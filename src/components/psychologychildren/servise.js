@@ -16,14 +16,14 @@ const Servise = () => {
   const { t } = useTranslation("psychologychildren");
 
   const services = [
-    { title: t("services.items.Depression"), icon: <TbCloudRain /> },
-    { title: t("services.items.Anxiety"), icon: <GiBrain /> },
-    { title: t("services.items.Peer_relationship_difficulties"), icon: <TbFriends /> },
-    { title: t("services.items.Unhealthy_Eating"), icon: <MdNoFood /> },
-    { title: t("services.items.Eating_Disorders"), icon: <RiRestaurant2Fill /> },
-    { title: t("services.items.Body_Image"), icon: <IoBodyOutline /> },
-    { title: t("services.items.Parent_child_relationship_issues"), icon: <MdFamilyRestroom /> },
-    { title: t("services.items.Disruptive_child"), icon: <MdOutlinePsychology /> },
+    { title: t("services.items.Depression"), icon: <TbCloudRain />, category: "Depression" },
+    { title: t("services.items.Anxiety"), icon: <GiBrain />, category: "Anxiety" },
+    { title: t("services.items.Peer_relationship_difficulties"), icon: <TbFriends />, category: "Unhealthy+eating" },
+    { title: t("services.items.Unhealthy_Eating"), icon: <MdNoFood />, category: "Unhealthy+eating" },
+    { title: t("services.items.Eating_Disorders"), icon: <RiRestaurant2Fill />, category: "Unhealthy+eating" },
+    { title: t("services.items.Body_Image"), icon: <IoBodyOutline />, category: "Unhealthy+eating" },
+    { title: t("services.items.Parent_child_relationship_issues"), icon: <MdFamilyRestroom />, category: "Unhealthy+eating" },
+    { title: t("services.items.Disruptive_child"), icon: <MdOutlinePsychology />, category: "Unhealthy+eating" },
   ];
   return (
     <Box>
@@ -38,7 +38,10 @@ const Servise = () => {
         <Grid container spacing={3} columns={{ xs: 12, md: 15 }} rowSpacing={{ xs: 3, sm: 1.5 }} className="justify-center">
           {services.map((service, index) => (
             <Grid key={index} xs={6} sm={4} md={3}>
-              <Link href={`/psychology/psychologychildren/psychologists/?specialty`} className="d-flex flex-column align-center link">
+              <Link
+                href={`/psychology/psychologychildren/depression?category=${service.category}`}
+                className="d-flex flex-column align-center link"
+              >
                 <Box className="icon pointer d-flex justify-center align-center">{service.icon}</Box>
                 <Typography variant="p" className="text-center" color="dark.main">
                   {service.title}

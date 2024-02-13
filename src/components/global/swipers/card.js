@@ -9,7 +9,7 @@ import { useCallback, useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Link from "next/link";
 
-const SwiperCard = ({ title, button, data, pt }) => {
+const SwiperCard = ({ title, button, data, pt, href = "#" }) => {
   const sliderRef = useRef(null);
 
   //handle prev & previous slider
@@ -99,9 +99,11 @@ const SwiperCard = ({ title, button, data, pt }) => {
       {/* Button */}
       {button ? (
         <Box className="text-center" py={5}>
-          <Button variant="contained" size="large" className="border-rounded">
-            {button}
-          </Button>
+          <Link href={href}>
+            <Button variant="contained" size="large" className="border-rounded">
+              {button}
+            </Button>
+          </Link>
         </Box>
       ) : (
         ""
