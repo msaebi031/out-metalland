@@ -1,5 +1,5 @@
 import { Box, Container } from "@mui/material";
-import CardEffect from "../global/swipers/cardEffect";
+import Card_Comments from "../global/swipers/card_comments";
 
 /**Data Comment */
 const Comments = () => {
@@ -39,7 +39,7 @@ const Comments = () => {
   return (
     <Box mt={16}>
       <Container>
-        <CardEffect
+        <Card_Comments
           text={
             "Lorem ipsum dolor sit amet consectetur. Ut turpis nunc ac felis sapien diam. Sed velit dignissim viverra natoque. Ut mattis egestas "
           }
